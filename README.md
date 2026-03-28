@@ -5,30 +5,35 @@ Automation testing project using Playwright + TypeScript with Page Object Model.
 ## Tech Stack
 - Playwright
 - TypeScript
-- Page Object Model
-- Data Driven Testing
+- Page Object Model (POM)
+- JSON-based test data
 
 ## Features Covered
 - Login (positive & negative scenarios)
-- Place Order end-to-end flow
-- Validation scenarios
+- Validation (invalid credentials, empty fields)
+- Place order end-to-end flow
+- Order history verificatoin
 
-## Test Scenario Example
+## Test Scenarios
 
 - User can login with valid credentials
+- User cannot login with invalid email
 - User cannot login with invalid password
+- User cannot login with empty email
+- User cannot login with empty password
 - User can place order successfully
 
 ## Project Structure
-tests/
-  ui/
-pages/
-utils/
-test-data/
+- tests/ui
+- pages
+- utils
 
 ## How to Run
-npm install
-npx playwright test
+1. npm install
+2. npx playwright install
+3. npx playwright test
 
 ## Notes
-This project demonstrates automation framework design and best practices.
+- Uses Page Object Model to separate test logic and UI interaction
+- Data-driven testing implemented using external JSON files
+- Designed to be simple, readable, and maintainable
