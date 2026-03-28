@@ -35,4 +35,4 @@ Automation testing project using Playwright + TypeScript with Page Object Model.
 ## Notes
 - Uses Page Object Model to separate test logic and UI interaction
 - Data-driven testing implemented using external JSON files
-- Designed to be simple, readable, and maintainable
+- Focused on readability, maintainability, and reusable components
