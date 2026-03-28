@@ -12,13 +12,12 @@ const config = ({
     timeout: 5000
   },
   reporter: [
-    ["line"],
-    [
-      "allure-playwright",
-      {
-        resultsDir: "allure-results",
-      },
-    ],
+    ['html', 
+      { 
+        outputFolder: 'playwright-report', 
+        open: 'never' 
+      }
+    ]
   ],
   use: {
     browserName: 'chromium',
