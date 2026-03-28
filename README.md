@@ -12,9 +12,9 @@ Automation testing project using Playwright + TypeScript with Page Object Model.
 - Login (positive & negative scenarios)
 - Validation (invalid credentials, empty fields)
 - Place order end-to-end flow
-- Order history verificatoin
+- Order history verification
 
-## Test Scenarios
+## Test Coverage
 - User can login with valid credentials
 - User cannot login with invalid email
 - User cannot login with invalid password
