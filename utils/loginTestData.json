@@ -1,0 +1,22 @@
+{
+  "validUser": {
+    "email": "firsttesting123@gmail.com",
+    "password": "firstTesting#123"
+  },
+  "invalidPassword": {
+    "email": "firsttesting123@email.com",
+    "password": "firsttesting#123"
+  },
+  "invalidEmail": {
+    "email": "firsttesting1234@email.com",
+    "password": "firstTesting#123"
+  },
+  "emptyEmail": {
+    "email": "",
+    "password": "firstTesting#123"
+  },
+  "emptyPassword": {
+    "email": "firsttesting123@gmail.com",
+    "password": ""
+  }
+}
