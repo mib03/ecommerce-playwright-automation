@@ -1,5 +1,7 @@
 # Ecommerce Playwright Automation
+
 [![Playwright Tests](https://github.com/mib03/ecommerce-playwright-automation/actions/workflows/playwright.yml/badge.svg)](https://github.com/mib03/ecommerce-playwright-automation/actions/workflows/playwright.yml)
+
 Automation testing project using Playwright + TypeScript with Page Object Model.
 
 ## Tech Stack
