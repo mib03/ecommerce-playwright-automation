@@ -8,14 +8,13 @@ Automation testing project using Playwright + TypeScript with Page Object Model.
 - Page Object Model (POM)
 - JSON-based test data
 
-## Features Covered
+## Features
 - Login (positive & negative scenarios)
 - Validation (invalid credentials, empty fields)
 - Place order end-to-end flow
 - Order history verificatoin
 
 ## Test Scenarios
-
 - User can login with valid credentials
 - User cannot login with invalid email
 - User cannot login with invalid password
